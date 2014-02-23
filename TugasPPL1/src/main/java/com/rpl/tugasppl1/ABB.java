@@ -16,27 +16,42 @@ public class ABB extends AB implements B {
 
 	private int x;
 
-	public ABB() {
+    /**
+     *ctor hanya print : ctor-ABB
+     */
+    public ABB() {
 		x = 0;
 		System.out.println("ctor-ABB");
 	}
 
-	public ABB(int x) {
+    /**
+     * ctor dengan parameter sebuah integer
+     * @param x
+     */
+    public ABB(int x) {
 		this.x = x;
 //		System.out.println("ctor-ABB (x = " + x + ")");
 	}
 
-
-	@Override
+    /**
+     *prosedur f() override f di Bapaknya dengan menullis :ABB
+     */
+    @Override
 	public void f() {
 		System.out.println("ABB");
 	}
 
-	public int getX() {
+    /**
+     * @return x
+     */
+    public int getX() {
 		return x;
 	}
 
-	@Override
+    /**
+     * Override  toString() dengan menuliskan nilai atribut x
+     */
+    @Override
 	public String toString() {
 		return "" + x;
 	}
