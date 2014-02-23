@@ -20,11 +20,19 @@ public class MainProgTest
         super( testName );
     }
 
+    /**
+     *
+     * @throws Exception
+     */
     @Override
     protected void setUp() throws Exception {
         super.setUp();
     }
 
+    /**
+     *
+     * @throws Exception
+     */
     @Override
     protected void tearDown() throws Exception {
         super.tearDown();
@@ -47,7 +55,7 @@ public class MainProgTest
     }
 
     /**
-     * Test of main method, of class MainProg.
+     * Test of main method, of class MainProg. 
      */
     public void testMain() {
         System.out.println("main");
@@ -58,7 +66,7 @@ public class MainProgTest
     }
 
     /**
-     * Test of w method, of class MainProg.
+     * Test of w method, of class MainProg. 
      */
     public void testW() {
         System.out.println("w");

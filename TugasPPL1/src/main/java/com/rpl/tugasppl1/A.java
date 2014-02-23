@@ -11,9 +11,17 @@ package com.rpl.tugasppl1;
  * @author Junno
  */
 public class A {
+
+    /**
+     * ctor hanya print : ctor-A
+     */
     public A(){
         System.out.println("ctor-A");
     }
+
+    /**
+     * prosedur f() hanya print : A
+     */
     public void f(){
         System.out.println("A");
     }
