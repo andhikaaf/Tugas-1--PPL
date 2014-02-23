@@ -12,22 +12,33 @@ package com.rpl.tugasppl1;
  */
 public class AB extends A implements B, C {
 
-	public AB() {
+    /**
+     *ctor hanya print: ctor-AB
+     */
+    public AB() {
 		System.out.println("ctor-AB");
 	}
 
-	@Override
+    /**
+     *prosedur f() override f di Bapaknya dengan menulis : AB
+     */
+    @Override
 	public void f() {
 		System.out.println("AB");
 	}
-	
-     
-	@Override
+
+    /**
+     *prosedur v() implementasi dari prosedur di interface B dengan menulis: AB.v() 
+     */
+    @Override
 	public void v() {
 		System.out.println("AB.v()");
 	}
 
-	@Override
+    /**
+     *prosedur g() implementasi dari prosedur di interface C dengan menulis: AB.g()
+     */
+    @Override
 	public void g() {
 		System.out.println("AB.g()");
 	}
