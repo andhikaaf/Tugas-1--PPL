@@ -50,6 +50,7 @@ public class ABB extends AB implements B {
 
     /**
      * Override  toString() dengan menuliskan nilai atribut x
+     * @return 
      */
     @Override
 	public String toString() {
