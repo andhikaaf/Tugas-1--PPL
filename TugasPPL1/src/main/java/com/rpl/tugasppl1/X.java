@@ -8,8 +8,13 @@ package com.rpl.tugasppl1;
 
 /**
  *
- * @author zieg_32
+ * @author Noor_Falih
  */
 public interface X {
+
+    /**
+     * fungsi w() yang mereturn sebuah integer
+     * @return
+     */
     public int w();
 }

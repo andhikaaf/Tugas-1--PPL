@@ -11,6 +11,10 @@ package com.rpl.tugasppl1;
  * @author Noor_Falih
  */
 public class Q {
+
+    /**
+     *constructor Q mencetak ctor-Q
+     */
     public Q() {
 		System.out.println("ctor-Q");
 	}
