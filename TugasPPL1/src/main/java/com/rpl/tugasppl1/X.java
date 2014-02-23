@@ -13,7 +13,7 @@ package com.rpl.tugasppl1;
 public interface X {
 
     /**
-     * fungsi w() yang mereturn integer
+     * fungsi w() yang mereturn sebuah integer
      * @return
      */
     public int w();

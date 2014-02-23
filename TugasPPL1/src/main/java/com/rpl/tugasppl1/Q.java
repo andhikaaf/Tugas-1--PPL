@@ -13,7 +13,7 @@ package com.rpl.tugasppl1;
 public class Q {
 
     /**
-     *constructor Q yang mencetak ctor-Q
+     *constructor Q mencetak ctor-Q
      */
     public Q() {
 		System.out.println("ctor-Q");
