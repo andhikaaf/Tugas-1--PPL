@@ -10,7 +10,7 @@ import java.util.Vector;
 public class MainProg implements X{
 
     /**
-     * Prosedur Main dari ProjekTugasPPL1
+     * Prosedur Main dari ProjekTugasPPL1 
      * 
      * @param args
      */
@@ -31,7 +31,7 @@ public class MainProg implements X{
     }
     
     /**
-     * fungsi w() override dari interface X, hanya mengembalikan 2
+     * fungsi w() override dari interface X, hanya mengembalikan 2 
      * @return 2
      */
     @Override

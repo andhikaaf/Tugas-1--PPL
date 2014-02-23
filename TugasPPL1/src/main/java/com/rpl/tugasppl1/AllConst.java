@@ -11,7 +11,7 @@ package com.rpl.tugasppl1;
  * @author Esa Fauzi
  * @version 1.0
  * @since 23/02/2014
- * Kelas yang berisi konstanta final
+ * Kelas yang berisi konstanta final 
  */
 public final class AllConst {
     public static final double PI = Math.PI;

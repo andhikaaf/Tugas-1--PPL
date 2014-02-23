@@ -55,7 +55,7 @@ public class MainProgTest
     }
 
     /**
-     * Test of main method, of class MainProg.
+     * Test of main method, of class MainProg. 
      */
     public void testMain() {
         System.out.println("main");
@@ -66,7 +66,7 @@ public class MainProgTest
     }
 
     /**
-     * Test of w method, of class MainProg.
+     * Test of w method, of class MainProg. 
      */
     public void testW() {
         System.out.println("w");
