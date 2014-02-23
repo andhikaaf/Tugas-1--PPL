@@ -19,10 +19,9 @@ public class MainProg implements X{
         ABB a = new ABB();
         P p = new P();
         Q q = new Q();
-        int N = 3;
-        Vector<Integer>[] v = new Vector[N];
+        Vector<Integer>[] v = new Vector[AllConst.N];
         a.f();
-        for(int i=1;i<=N;i++){
+        for(int i=1;i<=AllConst.N;i++){
             v[i-1] = new Vector();
             v[i-1].add(i);
             System.out.println("Nilai Vector-"+i+"= "+v[i-1]);

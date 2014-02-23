@@ -14,8 +14,24 @@ package com.rpl.tugasppl1;
  * Kelas yang berisi konstanta final 
  */
 public final class AllConst {
+
+    /**
+     * konstanta nilai Phi
+     */
     public static final double PI = Math.PI;
+
+    /**
+     * konstanta nilai Rho = 9.0
+     */
     public static final double RHO = 9.0;
+
+    /**
+     * konstanta nilai epsilon
+     */
     public static final double EPSILON = 0.005;
+
+    /**
+     * konstanta nilai N
+     */
     public static final int N = 8;
 }
