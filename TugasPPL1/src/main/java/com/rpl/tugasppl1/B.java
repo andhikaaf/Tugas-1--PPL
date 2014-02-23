@@ -11,5 +11,9 @@ package com.rpl.tugasppl1;
  * @author Junno
  */
 public interface B {
+
+    /**
+     * prosedur v(); belum diimplementasi
+     */
     public void v();
 }
