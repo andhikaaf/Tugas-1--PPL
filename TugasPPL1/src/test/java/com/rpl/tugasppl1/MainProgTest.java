@@ -53,7 +53,20 @@ public class MainProgTest
         System.out.println("main");
         String[] args = null;
         MainProg.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of w method, of class MainProg.
+     */
+    public void testW() {
+        System.out.println("w");
+        MainProg instance = new MainProg();
+        int expResult = 2;
+        int result = instance.w();
+        assertEquals(expResult, result);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
     }
 }

@@ -18,9 +18,10 @@ public class AB extends A implements B, C {
 
 	@Override
 	public void f() {
-		System.out.println("AB.f()");
+		System.out.println("AB");
 	}
 	
+     
 	@Override
 	public void v() {
 		System.out.println("AB.v()");

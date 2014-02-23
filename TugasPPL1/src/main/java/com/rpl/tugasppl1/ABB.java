@@ -23,17 +23,13 @@ public class ABB extends AB implements B {
 
 	public ABB(int x) {
 		this.x = x;
-		System.out.println("ctor-ABB (x = " + x + ")");
+//		System.out.println("ctor-ABB (x = " + x + ")");
 	}
 
-	@Override
-	public void v() {
-		System.out.println("ABB.v()");
-	}
 
 	@Override
 	public void f() {
-		System.out.println("ABB.f()");
+		System.out.println("ABB");
 	}
 
 	public int getX() {
