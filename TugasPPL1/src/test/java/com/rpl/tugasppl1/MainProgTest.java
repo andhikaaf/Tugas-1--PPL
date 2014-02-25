@@ -63,7 +63,7 @@ public class MainProgTest
      * Test of main method, of class MainProg. 
      */
     public void testMain() {
-        System.out.println("main test");
+        System.out.println("main testing");
         String[] args = null;
         //MainProg.main(args);
 //        // TODO review the generated test code and remove the default call to fail.
