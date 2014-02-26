@@ -14,7 +14,7 @@ import junit.framework.TestCase;
 /**
  *
  * @author zieg_32
- * Noor Falih
+ * 
  */
 public class QTest extends TestCase {
    private ByteArrayOutputStream outputContent=new ByteArrayOutputStream();
